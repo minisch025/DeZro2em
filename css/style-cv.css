@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #202020f1;
+    background-color: #ececec;
+    width: 100%;
+}
+h1, h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+nav{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 20px;
+    background-color: #000000d0;
+    color: #fff;
+    margin-top: -50px;
+}
+
+main div{
+    justify-content: center;
+    align-items: center;
+    border: solid #ececec 1px;
+    background-color: #fff;
+    margin: 30px 20% 30px 20%;
+    border-radius: 20px;
+    color: #fff;
+}
+.no-mov ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 30px 20%;
+}
+.no-mov ul li{
+    list-style-type: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.no-mov ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+}
+.no-mov ul li a:hover{
+    text-decoration: none;
+    color: #9370db;
+    border-left: solid #fff 3px;
+    border-right: solid #fff 3px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 1s;
+    transition: 50ms;
+}
+
+.infosUser{
+    background-color: #00ced1;
+    color: #fff;
+}
+.infosUser p{
+    margin-left: 10px;
+}
+
+
+.exPro{
+    background-color: #ffa500;
+    color: #fff;
+}
+.formAca{
+    background-color: #32cd32;
+    color: #fff;
+}
+.compet{
+    background-color: #800000;
+    color: #fff;
+}
+
+.no-mov{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    background-color: #fff;
+    margin: 0 20% 0 80%;
+    border-radius: 20px;
+    color: #fff;
+}
+.no-mov .entete{
+    background-color: #00ced1;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
